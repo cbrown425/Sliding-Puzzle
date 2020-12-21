@@ -1,0 +1,43 @@
+
+BODY {
+background: #2020208c;
+
+}
+#button {
+    padding-top:25px;
+    display:flex;
+    justify-content:center;
+}
+
+.table {
+   // width:50%;
+    max-width:50%;
+    height:auto;
+    background:white;
+    margin-left:auto;
+    margin-top:auto;
+    margin-right: auto;
+    margin-bottom:auto; 
+}
+
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+    width: 142px;
+    height: 142px;
+    display: table-cell;
+    border: 1px solid white;
+    background: url(rainy.gif);
+    //background: url(tree.gif);
+}
+
+.tile1 {background-position: left top;}
+.tile2 {background-position: center top;}
+.tile3 {background-position: right top;}
+.tile4 {background-position: left center;}
+.tile5 {background-position: center center;}
+.tile6 {background-position: right center;}
+.tile7 {background-position: left bottom;}
+.tile8 {background-position: bottom center;}
+.tile9 {
+    background-position: bottom right;
+    opacity:0%;
+}
